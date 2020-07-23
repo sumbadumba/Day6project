@@ -185,4 +185,31 @@ int main()
 //- 출력메세지가 영어로 되야 하는 것은 아님.
 //- 10회에 대한 최종 승률 출력 
 
+int main()
+{
+	srand(time(NULL));
+	int array[10];
+	int num = 0;
+
+
+	for (int i = 0; i < 10; i++)
+	{
+		array[i] = rand();
+
+	}
+
+	for (int i = 0; i < 10; i++)
+	{
+		printf("당신은 홀 아니면 짝을 선택하시겠습니까?\n ");
+		printf("홀이면 1 짝이면 2를 입력해주십시오. \n");
+		scanf("%d", &num);
+
+		
+		if (!array[i] % 1)
+		{
+			printf("이번 닶은 짝입니다. ")
+		}
+	}
+
+}
 
